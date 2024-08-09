@@ -62,7 +62,7 @@ export default function Contacts() {
 
         
 
-        const create = await axios.post("http://localhost:4000/createcontact" , 
+        const create = await axios.post(process.env.NEXT_PUBLIC_BACKEND , 
            {
             name:name,
             surname:surname,
