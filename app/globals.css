@@ -2,32 +2,328 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+.header{
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #FAFAFA;
+  justify-content: center;
+}
+.headerframe{
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sections{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #273272;
+  letter-spacing: 1px;
+}
+.contactbtn button{
+
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 10px 1px rgb(255, 167, 167);
+
+
+}
+.alubali{
+  width: 550px;
+  height: 450px;
+  background-color: gray;
+}
+.productss{
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productframe{
+  width: 55%;
+  display: flex;
+  align-items: start;
+  gap: 24px;
+
+}
+.productlister{
+  display: flex;
+  align-items: center;
+  width: 550px;
+  height: 450px;
+  overflow: hidden;
+
+}
+.productmaintittle{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color:  #4e4e4e;
+}
+.productdesc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 450px;
+}
+.productprices div{
+  margin-bottom: 14px;
+}
+.productprices button{
+  padding: 10px;
+  width: 200px;
+  font-weight: 700;
+  color: white;
+}
+.aboutt{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.abouttittle{
+  width: 55%;
+  background-color: #FAFAFA;
+  padding: 20px;
+  color: #273272;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.miwodebatittle{
+  width: 55%;
+  background-color: #FAFAFA;
+  padding: 20px;
+  color: #273272;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.aboutframe{
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.leftabout{
+  width: 550px;
+  height: 450px;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.value{
+  font-size: 44px;
+  font-weight: 700;
+}
+.markets{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.bigtittles{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.miwodeba{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  flex-direction: column;
+
+}
+.firstline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  letter-spacing: 1px;
+  color: #273272;
+}
+.leftabout{
+  padding: 10px;
+}
+.linename{
+  font-size: 24px;
+}
+.miwodebaframe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstline{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.leftmiwodeba{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+
+}
+.contacts{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 30px;
+ padding: 30px;
+ flex-direction: column;
+}
+.contactstittle{
+  width: 55%;
+  background-color: #FAFAFA;
+  padding: 20px;
+  color: #273272;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.contactsframe{
+  width: 55%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 15px;
+  
+}
+.input{
+  width: 50%;
+}
+.rightcontact{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.lineinput{
+  width: 100%;
+}
+.input input{
+  padding: 20px;
+  width: 100%;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  
+}
+.footer{
+  margin-top: 100px;
+  padding: 10px;
+  height: 150px;
+  justify-content: center;
+  border-top: 1px solid rgb(227, 227, 227);
+}
+textarea{
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 100%;
+  background-color: #eaeaea;
+  height: 250px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.textarea button{
+  width: 100%;
+  padding: 13px;
+  color: white;
+  margin-top: 10px;
+}
+
+@media (max-width:500px) {
+
+  .headerframe{
+    width: 100%;
+    font-size: 12px;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .header{
+    padding: 10px;
   }
+  .productimage{
+    display: none;
+  }
+  .rightmiwodeba{
+    display: none;
+  }
+  .productframe{
+    width: 100%;
+  }
+  .leftmiwodeba{
+    width: 100%;
+  }
+  .miwodebatittle{
+    width: 100%;
+  }
+  .aboutframe{
+    width: 100%;
+  }
+  .bigtittles{
+    font-size: 18px;
+
+
+  }
+  .abouttittle{
+    width: 100%;
+  }
+  .rightabout{
+    display: none;
+  }
+  .responsivetittle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .markets{
+    font-size: 24px !important;
+  }
+  .value{
+    font-size: 24px;
+  }
+  .contacts{
+    margin-top: 144px;
+  }
+  .aboutframe{
+    margin-top: 140px;
+  }
+  .contactsframe{
+    width: 100%;
+  }
+  .contactstittle{
+    width: 100%;
+  }
+  
 }
+
