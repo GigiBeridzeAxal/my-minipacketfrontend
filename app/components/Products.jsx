@@ -39,8 +39,8 @@ export default function Products() {
       scrollbar={{ draggable: true }}  className="productlister">
                 <SwiperSlide><img width={550} height={450} src="vashliswveni.png" alt="" /></SwiperSlide>
                 <SwiperSlide><img  width={550} height={450} src="Kiwi.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img  width={550} height={450} src="DragonFruit.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img  width={550} height={450} src="RaspBerry.png" alt="" /></SwiperSlide>
+                <SwiperSlide><img  width={550} height={450} src="Dragonfruit.png" alt="" /></SwiperSlide>
+                <SwiperSlide><img  width={550} height={450} src="Raspberry.png" alt="" /></SwiperSlide>
               
 
 
