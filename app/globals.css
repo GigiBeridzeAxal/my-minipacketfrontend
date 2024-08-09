@@ -315,15 +315,19 @@ textarea{
   .contacts{
     margin-top: 144px;
   }
-  .aboutframe{
-    margin-top: 140px;
-  }
+
   .contactsframe{
     width: 100%;
   }
   .contactstittle{
     width: 100%;
   }
+  .leftabout{
+    height: 100%;
+
+  }
+
+
   
 }
 
