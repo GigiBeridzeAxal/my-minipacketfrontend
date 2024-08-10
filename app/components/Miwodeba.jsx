@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Miwodeba() {
   return (
-    <div className="miwodeba">
+    <div id='miwodeba' className="miwodeba">
       <div className="miwodebatittle">მიწოდება</div>
         <div className="miwodebaframe">
             <div className="leftmiwodeba">

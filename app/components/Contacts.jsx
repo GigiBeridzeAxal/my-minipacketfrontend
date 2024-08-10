@@ -80,7 +80,7 @@ export default function Contacts() {
     }
 
   return (
-    <div className="contacts">
+    <div id='contacts' className="contacts">
         <div className="contactstittle">შეკვეთა</div>
         <div className="contactsframe">
 

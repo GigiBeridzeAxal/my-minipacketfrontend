@@ -55,7 +55,7 @@ export default function Products() {
                 <div className="apple">მაყვალის წვენი - 35₾</div>
                 <div className="apple">დრაკონის წვენი - 55₾</div>
                 <div className="apple">კივის წვენი - 45₾</div>
-                <button className='bg-red-600' >შეუკვეთე</button>
+                <a href='#contacts' className='bg-red-600' >შეუკვეთე</a>
                </div>
              </div>
 

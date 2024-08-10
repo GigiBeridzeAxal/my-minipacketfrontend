@@ -7,10 +7,10 @@ export default function Header() {
   
              <div className="logo flex items-center gap-[10px]"><img src="MiniLogo.png" alt="" /> Juice Oasis</div>
              <div className="sections">
-               <div className="products">მიწოდება</div>
+               <a href='#miwodeba' className="products">მიწოდება</a>
                
-                <div className="about">ჩვენს შესახებ</div>
-                <div className="contactbtn"><button className='bg-red-600' >შეუკვეთე</button></div>
+                <a href='#about' className="about">ჩვენს შესახებ</a>
+                <div className="contactbtn"><a href='#contacts' className='bg-red-600' >შეუკვეთე</a></div>
                 
              </div>
 
