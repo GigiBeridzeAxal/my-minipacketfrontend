@@ -5,7 +5,7 @@ export default function Header() {
     <div className="header">
         <div className="headerframe">
   
-             <div className="logo">Your Logo</div>
+             <div className="logo flex items-center gap-[10px]"><img src="MiniLogo.png" alt="" /> Juice Oasis</div>
              <div className="sections">
                <div className="products">მიწოდება</div>
                
